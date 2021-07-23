@@ -9,7 +9,7 @@ import { Book } from '../book';
 })
 export class FormsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private fb: FormBuilder) { }
 
   ngOnInit(): void {
   }
